@@ -1,0 +1,58 @@
+/*********** GENERAL ***********/
+* {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body {
+    background: url(/img/background.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+/*********** LAYOUT ***********/
+.active {
+    font-size: 1.05em;
+}
+
+.btn-info {
+    background-color: rgb(139,0,255);
+    color: white;
+    border: 1px solid gray;
+}
+
+/*********** MEDIA ***********/
+@media only screen and (max-width: 990px){
+    ul.nav { /* horizontally centering nav on equal or smaller than 990 pixels screens */
+        margin-top: 20px !important;
+    }
+}
+
+/*********** NAVIGATION ***********/
+.header {
+    font-family: 'Pushster', cursive;
+    font-size: 1.4em;
+    color: white;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+.header::first-letter { 
+    font-size: 1.6em; 
+}
+
+.navigation {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(149,32,146,1) 0%, rgba(139,0,255,1) 100%);
+}
+
+.nav-link:hover {
+    font-size: 1.1em;
+}
+
+/*********** GREETING ***********/
+article.content-left > h1, article.content-right > h1 {
+    font-style: italic;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
